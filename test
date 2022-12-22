@@ -1,0 +1,32 @@
+<div class="login-box">
+  <h2>Login</h2>
+  <form>
+    	 <div class="social_conteiner">
+				<a href="https://www.facebook.com/profile.php?id=100070988407456" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://www.instagram.com/oxunjon_clever_boy2004/" class="social"><i class="fab fa-instagram"></i></a>
+				<a href="https://t.me/Oxunjon2004" class="social"><i class="fab fa-telegram"></i></a> 
+			</div>
+    <div class="user-box">
+      <input type="text" 
+             name="" 
+             required=""  
+             v-model="user.username">
+      <label>Username</label>
+    </div>
+    <div class="user-box">
+      <input type="password" 
+             name="" 
+             required=""
+             v-model="user.password"
+             >
+      <label>Password</label>
+    </div>
+    <a href="#" @click="fillInput()">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Submit
+    </a>
+  </form>
+</div>
